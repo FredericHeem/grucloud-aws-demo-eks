@@ -1,0 +1,21 @@
+{
+  "name": "@grucloud/example-module-aws-eks",
+  "version": "1.19.1",
+  "description": "Example for the AWS EKS GruCloud Module",
+  "main": "iac.js",
+  "private": true,
+  "scripts": {
+    "graph-target": "gc graph --title 'EKS Module'",
+    "graph-live": "gc list --graph --title 'EKS Module'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grucloud/core": "^1.19.1",
+    "@grucloud/module-aws-eks": "^1.19.1",
+    "@grucloud/module-aws-vpc": "^1.19.1",
+    "@grucloud/provider-aws": "^1.19.1",
+    "rubico": "^1.6.23"
+  }
+}
